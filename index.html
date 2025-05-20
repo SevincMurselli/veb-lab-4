@@ -9,6 +9,8 @@
 
 </head>
 <body>
+
+  <div class="container">
   <div class="sidebar">
     <img src="blank-profile-picture-973460_960_720.webp" alt="Photo"  class="photo">
     <h3>CONTACT</h3>
@@ -17,6 +19,26 @@
     <p>📍 Doğum yeri: Naxçıvan şəhəri</p>
     <p>📅 Doğum tarixi: 15.06.2007</p>
     <p>📍 Yaşadığı yer: Bakı ş. N.Nərimanov r. </p>
+     <h3>Formun Təsdiqlənməsi</h3>
+  <form id="myForm">
+    <label for="name">Ad:</label>
+    <input type="text" id="name" name="name">
+    <div class="error" id="nameError"></div>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <div class="error" id="emailError"></div>
+
+    <label for="date">Tarix:</label>
+    <input type="date" id="date" name="date">
+    <div class="error" id="dateError"></div>
+
+    <label for="description">Təsvir:</label>
+    <textarea id="description" name="description"></textarea>
+    <div class="error" id="descError"></div>
+
+    <button type="submit">Yadda Saxla</button>
+  </form>
 
     <h3 class="accordion-button" onclick="toggleSection('edu')">📘 TƏHSİL</h3>
     <div class="accordion-content" id="edu">
@@ -71,6 +93,7 @@
           <p>  Yeni komandalarla işləmək, praktiki təcrübə qazanmaq və özümü peşəkar sahədə inkişaf etdirmək üçün fürsətlər axtarıram. 
             Əminəm ki, məsuliyyətli yanaşmam və öyrənməyə olan həvəsim mənə verilən tapşırıqları uğurla yerinə yetirməyə imkan verəcək.</p>
       </div>
-
+</div>
+ 
 </body>
 </html>
